@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+  </head>
+  <body>
+    <a href="MyWork.html">Back to home perhaps?(not a part of this work)</a>
+    <h1>To Do</h1>
+    <form onsubmit="handleSubmit(event)">
+      <label for="task">Ievadi uzdevumu:</label>
+      <input id="task" />
+      <input type="submit" value="Pievienot 🤌🏾" />
+    </form>
+    <ul id="saraksts"></ul>
+    <script>
+      function handleSubmit(event) {
+        event.preventDefault();
+        let task = document.getElementById("task").value;
+
+        //Ar JS izveidot HTML elementu
+        const newListItem = document.createElement("li");
+        newListItem.textContent = task;
+
+        // Izvēlēties parent
+        const list = document.getElementById("saraksts");
+        list.appendChild(newListItem);
+      }
+    </script>
+  </body>
+</html>
