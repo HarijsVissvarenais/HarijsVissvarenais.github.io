@@ -10,6 +10,13 @@ header {
   width: 100vw;
   z-index: 10;
 }
+body {
+  background-image: url(lejupielāde.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .home {
   color: white;
   text-decoration: none;

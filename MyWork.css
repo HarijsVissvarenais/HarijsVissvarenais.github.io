@@ -15,6 +15,14 @@ header {
   text-decoration: none;
   text-underline-offset: none;
 }
+
+body {
+  background-image: url(lejupielāde.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 ul {
   display: flex;
   justify-content: space-around;
@@ -22,8 +30,7 @@ ul {
   padding: 0;
 }
 a {
-
-  color: orange;
+  color: white;
   text-decoration: none;
   text-underline-offset: none;
   transition: transform 0.5s;
