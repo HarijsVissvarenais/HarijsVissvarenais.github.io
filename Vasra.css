@@ -1,0 +1,38 @@
+body {
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    height: 60px;
+    width: 100vw;
+    z-index: 10;
+  }
+main {
+    margin-top: 100px;
+    max-width: 700px;
+    margin: 60px auto;
+  }
+  article {
+    position: relative;
+    margin-bottom: 200px;
+    margin-top: 100px;
+  }
+  nav {
+    position: relative;
+  }
+  H1{
+      color:white;
+      font-size: 70px;
+  }
+  p{
+    color:white;
+      font-size:50px;
+      border: 4cm;
+  }
